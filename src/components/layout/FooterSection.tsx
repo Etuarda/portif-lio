@@ -277,8 +277,8 @@ export default function FooterSection() {
 
         {/* Legal Rights line */}
         <div className="flex flex-col sm:flex-row justify-between items-center text-[10px] font-mono text-[#FAF6EE]/45 mt-4 pt-4 border-t border-[#FAF6EE]/5 gap-2">
-          <span>© 2026 Eduarda Silva Santos. Feito com amor, café e código artesanal.</span>
-          <span className="bg-[#FAF6EE]/5 px-3 py-1 rounded-full">ESTÉTICA FLOR & LUZ COMPATÍVEL</span>
+          <span>Eduarda Silva Santos.</span>
+          <span className="bg-[#FAF6EE]/5 px-3 py-1 rounded-full"> ©2026 </span>
         </div>
 
       </div>
