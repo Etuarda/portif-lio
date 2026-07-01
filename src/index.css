@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', sans-serif;
+  --font-serif: 'Fraunces', serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    background-color: #FAF6EE;
+    color: #25150e;
+  }
+  
+  /* Custom scrollbar to match the brown coffee aesthetics */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #f5ede1;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #3c2415;
+    border-radius: 5px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #e27274;
+  }
+}
+
+/* Extra organic and handmade styles */
+.clip-path-organic-1 {
+  clip-path: polygon(0% 15%, 15% 0%, 85% 5%, 100% 20%, 95% 85%, 80% 100%, 15% 95%, 0% 75%);
+}
+
+.clip-path-organic-2 {
+  clip-path: polygon(10% 0%, 90% 10%, 100% 40%, 85% 100%, 15% 90%, 0% 50%);
+}
+
+.clip-path-organic-3 {
+  clip-path: polygon(5% 5%, 95% 0%, 100% 80%, 80% 100%, 10% 90%, 0% 40%);
+}
+
+.clip-path-card {
+  clip-path: polygon(2% 0%, 98% 3%, 100% 95%, 96% 100%, 4% 97%, 0% 5%);
+}
