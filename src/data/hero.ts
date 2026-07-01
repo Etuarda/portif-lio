@@ -43,7 +43,7 @@ export const heroVersions: Record<HeroVersionId, HeroVersion> = {
     badgeColor: "bg-orange-500 text-white",
     subtitle: "Concepção de ecossistemas backend resilientes, mensageria e alto rendimento.",
     description: "Foco no design de microsserviços integrados e arquitetura limpa. Preparada para projetar pipelines de faturamento, orquestração de containers com Docker Compose, comunicação assíncrona robusta utilizando RabbitMQ, gerenciamento de filas e cache de baixa latência em Redis.",
-    price: "Arquitetura em Camadas (REST)",
+    price: "Programadores do Amanhã",
     specs: ["Node.js / TypeScript", "RabbitMQ / Mensageria", "Redis / Cache", "Docker & Compose"],
   },
 };

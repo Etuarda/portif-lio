@@ -45,8 +45,8 @@ export default function HeroSection() {
             <button
               onClick={() => handleSelectVersion("standard")}
               className={`w-14 h-14 md:w-16 md:h-16 rounded-2xl flex items-center justify-center border-2 transition-all p-1.5 duration-200 cursor-pointer ${activeVersion === "standard"
-                  ? "border-[#1c0f0a] bg-[#1c0f0a] text-[#FAF6EE] scale-105"
-                  : "border-[#25150e]/15 bg-[#f5ede1] text-[#25150e]/70 hover:border-[#1c0f0a]/30"
+                ? "border-[#1c0f0a] bg-[#1c0f0a] text-[#FAF6EE] scale-105"
+                : "border-[#25150e]/15 bg-[#f5ede1] text-[#25150e]/70 hover:border-[#1c0f0a]/30"
                 }`}
             >
               <div className="flex flex-col items-center">
@@ -57,8 +57,8 @@ export default function HeroSection() {
             <button
               onClick={() => handleSelectVersion("creative")}
               className={`w-14 h-14 md:w-16 md:h-16 rounded-2xl flex items-center justify-center border-2 transition-all p-1.5 duration-200 cursor-pointer ${activeVersion === "creative"
-                  ? "border-[#1c0f0a] bg-[#1c0f0a] text-[#FAF6EE] scale-105"
-                  : "border-[#25150e]/15 bg-[#f5ede1] text-[#25150e]/70 hover:border-[#1c0f0a]/30"
+                ? "border-[#1c0f0a] bg-[#1c0f0a] text-[#FAF6EE] scale-105"
+                : "border-[#25150e]/15 bg-[#f5ede1] text-[#25150e]/70 hover:border-[#1c0f0a]/30"
                 }`}
             >
               <div className="flex flex-col items-center">
@@ -69,8 +69,8 @@ export default function HeroSection() {
             <button
               onClick={() => handleSelectVersion("engine")}
               className={`w-14 h-14 md:w-16 md:h-16 rounded-2xl flex items-center justify-center border-2 transition-all p-1.5 duration-200 cursor-pointer ${activeVersion === "engine"
-                  ? "border-[#1c0f0a] bg-[#1c0f0a] text-[#FAF6EE] scale-105"
-                  : "border-[#25150e]/15 bg-[#f5ede1] text-[#25150e]/70 hover:border-[#1c0f0a]/30"
+                ? "border-[#1c0f0a] bg-[#1c0f0a] text-[#FAF6EE] scale-105"
+                : "border-[#25150e]/15 bg-[#f5ede1] text-[#25150e]/70 hover:border-[#1c0f0a]/30"
                 }`}
             >
               <div className="flex flex-col items-center">
@@ -308,8 +308,8 @@ export default function HeroSection() {
             <button
               onClick={() => handleSelectVersion("standard")}
               className={`p-4 rounded-2xl border-2 text-left cursor-pointer transition-all flex flex-col justify-between relative h-28 overflow-hidden group ${activeVersion === "standard"
-                  ? "border-[#1c0f0a] bg-[#1c0f0a] text-[#FAF6EE] shadow-md"
-                  : "border-[#25150e]/15 bg-[#f5ede1] hover:border-[#25150e]/40 text-[#25150e]"
+                ? "border-[#1c0f0a] bg-[#1c0f0a] text-[#FAF6EE] shadow-md"
+                : "border-[#25150e]/15 bg-[#f5ede1] hover:border-[#25150e]/40 text-[#25150e]"
                 }`}
             >
               <div>
@@ -333,8 +333,8 @@ export default function HeroSection() {
             <button
               onClick={() => handleSelectVersion("creative")}
               className={`p-4 rounded-2xl border-2 text-left cursor-pointer transition-all flex flex-col justify-between relative h-28 overflow-hidden group ${activeVersion === "creative"
-                  ? "border-[#1c0f0a] bg-[#1c0f0a] text-[#FAF6EE] shadow-md"
-                  : "border-[#25150e]/15 bg-[#f5ede1] hover:border-[#25150e]/40 text-[#25150e]"
+                ? "border-[#1c0f0a] bg-[#1c0f0a] text-[#FAF6EE] shadow-md"
+                : "border-[#25150e]/15 bg-[#f5ede1] hover:border-[#25150e]/40 text-[#25150e]"
                 }`}
             >
               <div>
@@ -357,8 +357,8 @@ export default function HeroSection() {
             <button
               onClick={() => handleSelectVersion("engine")}
               className={`p-4 rounded-2xl border-2 text-left cursor-pointer transition-all flex flex-col justify-between relative h-28 overflow-hidden group ${activeVersion === "engine"
-                  ? "border-[#1c0f0a] bg-[#1c0f0a] text-[#FAF6EE] shadow-md"
-                  : "border-[#25150e]/15 bg-[#f5ede1] hover:border-[#25150e]/40 text-[#25150e]"
+                ? "border-[#1c0f0a] bg-[#1c0f0a] text-[#FAF6EE] shadow-md"
+                : "border-[#25150e]/15 bg-[#f5ede1] hover:border-[#25150e]/40 text-[#25150e]"
                 }`}
             >
               <div>
@@ -410,8 +410,8 @@ export default function HeroSection() {
           </a>
         </div>
 
+
       </div>
-    </div>
     </section >
   );
 }
