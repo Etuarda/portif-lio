@@ -3,7 +3,7 @@ import { motion } from "motion/react";
 import { Code2, Cpu, Flame, Sparkles, Star } from "lucide-react";
 import { heroVersions, type HeroVersionId } from "@/data/hero";
 
-const profileImage = new URL("../../../eduardass.jpeg", import.meta.url).href;
+const profileImage = "/eduardass.jpeg";
 
 export default function HeroSection() {
   const [activeVersion, setActiveVersion] = useState<HeroVersionId>("standard");
